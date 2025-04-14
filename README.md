@@ -2,12 +2,13 @@
 
 ## Introduction
 
-ATPPred is a novel tool developed to predict plant ATP-binding proteins with high precision. It leverages the power of **Evolutionary Scale Modeling 2 (ESM2)**, a protein large language model, combined with a **1-dimensional Convolutional Neural Network (1D CNN)** to extract both global and local features from protein sequences. This method has shown significant improvements in performance, especially for predicting ATP-binding proteins across plant.
+ATPPred is a novel tool developed to predict plant ATP-binding proteins with high precision. It leverages the power of **ESM2**, a protein large language model, combined with a **1D CNN** to extract both global and local features from protein sequences. This method has shown significant improvements in performance, especially for predicting ATP-binding proteins across plant.
 
 ### Highlights:
-- **A novel deep learning model, BBKPred, based on ProtBert, is proposed for identifying lysine lactylation (Kla) sites in proteins by extracting deep features from protein sequences.**
-- **The model integrates a variety of physicochemical properties of proteins, including molecular weight, isoelectric point, amino acid composition, secondary structure content, hydrophobicity, and charge distribution, to enhance the prediction capability.**
-- **An attention mechanism in the fully connected layers allows the model to automatically select the most relevant features for Kla site prediction, improving accuracy.**
-- **4. BBKPred demonstrates exceptional accuracy and generalization capability in identifying Kla sites, outperforming existing methods in terms of predictive performance.**
+- **This study is the first to apply protein large language models in the prediction of plant ATP-binding proteins, providing an innovative solution for this field of research.**
+- **Experiments have demonstrated that incorporating 1D CNN on top of ESM2 can effectively improve the model's performance.**
+- **ATPPred consistently maintains high performance across various protein sequence similarity thresholds, demonstrating exceptional robustness.**
+- **ATPPred outperforms existing methods in identifying ATP-binding proteins.**
+- **5.ATPPred demonstrates superior performance and high precision in predicting ATP-binding proteins across different species, showcasing its strong applicability beyond plant species.**
 
 
