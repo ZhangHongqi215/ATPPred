@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ATPPred is a novel tool developed to predict plant ATP-binding proteins with high precision. It leverages the power of **ESM2**, a protein large language model, combined with a **1D CNN** to extract both global and local features from protein sequences. This method has shown significant improvements in performance, especially for predicting ATP-binding proteins across plant.
+ATPPred is a tool based on the protein large language model ESM2 and 1D CNN, designed for high-precision prediction of plant ATP-binding proteins. The tool uses ESM2 to extract global features of plant ATP-binding proteins, then employs 1D CNN to capture local information. Comprehensive performance metrics demonstrate ATPPred's outstanding predictive capabilities. Evaluation on external datasets confirms its cross-species applicability and reliability, showcasing superior performance compared to existing methods. In summary, ATPPred provides an efficient and accurate tool for predicting plant ATP-binding proteins, with broad potential for applications in plant biology and the discovery of new drug targets.
 
 ### Highlights:
 - **This study is the first to apply protein large language models in the prediction of plant ATP-binding proteins, providing an innovative solution for this field of research.**
